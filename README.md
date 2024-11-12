@@ -79,6 +79,8 @@
 - `curl -X POST https://api.bhb.us.kg/api/sendMessage \`
 - `-H "Content-Type: application/json" \`
 - `-d '{"message": "admin123456"}'`
+- Worker清空数据库代码，创建一个Worker，将`clearchat.js`代码粘贴进去并保存，需要清空数据库打开这个Worker域名刷新清空
+
 
 #### **演示网站: [https://chat.bhb.us.kg/](https://chat.bhb.us.kg/)**
 #### **演示截图**
