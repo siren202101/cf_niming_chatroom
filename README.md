@@ -76,11 +76,6 @@
 - `chat.bhb.us.kg` 是 Pages 绑定的域名。
 - 清空数据库和储存桶的密码在 `worker.js` 中 (默认 admin123456)。
 - 防刷屏可以限制 `/api/sendMessage` 接口 10 秒 2 次。
-- 清空数据库的命令：
-- `curl -X POST https://api.bhb.us.kg/api/sendMessage \`
-- `-H "Content-Type: application/json" \`
-- `-d '{"message": "admin123456"}'`
-- Worker清空数据库代码，创建一个Worker，将`clearchat.js`代码粘贴进去并保存，需要清空数据库打开这个Worker域名刷新清空
 
 
 #### **演示网站: [https://chat.bhb.us.kg/](https://chat.bhb.us.kg/)**
