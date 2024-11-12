@@ -76,9 +76,9 @@
 - 清空数据库和储存桶的密码在 `worker.js` 中 (默认 admin123456)。
 - 防刷屏可以限制 `/api/sendMessage` 接口 10 秒 2 次。
 - 清空数据库的命令：
-`curl -X POST https://api.bhb.us.kg/api/sendMessage \`
-`-H "Content-Type: application/json" \`
-`-d '{"message": "admin123456"}'`
+- `curl -X POST https://api.bhb.us.kg/api/sendMessage \`
+- `-H "Content-Type: application/json" \`
+- `-d '{"message": "admin123456"}'`
 
 #### **演示网站: [https://chat.bhb.us.kg/](https://chat.bhb.us.kg/)**
 #### **演示截图**
